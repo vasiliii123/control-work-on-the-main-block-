@@ -27,3 +27,9 @@ Console.Write("Введенный массив: [");
 Console.Write(string.Join(",", arr1));
 Console.Write("]");
 
+for (int i = 0; i < arr1.Length; i++)
+{
+	if(arr1[i].Length <= maxSymbols){
+		count++;
+	}   
+}
